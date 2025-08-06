@@ -34,9 +34,6 @@ dev_dependencies:
 flutter:
   plugin:
     platforms:
-      android:
-        package: com.aboutyou.dart_packages.sign_in_with_apple
-        pluginClass: SignInWithApplePlugin
       ios:
         pluginClass: SignInWithApplePlugin
         sharedDarwinSource: true
